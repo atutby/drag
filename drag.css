@@ -1,0 +1,63 @@
+﻿#shirt, #pants, #boots {
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    cursor: move;
+    color: black;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    text-align: right;
+    border: 1px solid green;
+}
+
+#pants {
+    background-image: url(img/pants.jpg);
+}
+
+#shirt {
+    background-image: url(img/Tshirt.jpg);
+}
+
+#boots {
+    background-image: url(img/boots.jpg);
+}
+
+h5 {
+    padding: 0px;
+    margin: 0px;
+}
+
+#target {
+    background-color: blue;
+    width: 260px;
+    height: 330px;
+    color: white;
+    padding: 5px;
+}
+
+#cart {
+    background-image: url(img/inetrnet-store-cart.png);
+    background-size: 100px 100px;
+    width: 500px;
+    height: auto;
+     background-color: red;
+    position: absolute;
+    left: 600px;
+    top: 0px;
+    background-position: 315px 15px;
+    background-repeat: no-repeat;
+}
+
+#summ {
+    font-size: 25px;
+    position: absolute;
+    bottom: 180px;
+    left: 300px;
+}
+#shop {
+    width:250px;
+    min-height:500px;
+    height:auto;
+    border:2px solid red;
+    background:pink;
+}

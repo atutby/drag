@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Drag & Drop</title>
+    <link href="drag.css" rel="stylesheet" />
+    <script src="drag.js"></script>
+    </head>
+<body>
+    <div id="shop">
+        <!-- Для того что бы активировать возможность переносить данные необходимо установить атрибут draggable и создать обработчик на событие dragstart -->
+        <div id="shirt" data-price="15" draggable="true">
+            Футболка
+            <h5> Цвет: Синий</h5>
+            <h5> Размер: L</h5>
+            <h5> Стоимость: 15$</h5>
+        </div>
+        <div id="pants" data-price="30" draggable="true">
+            Шорты
+            <h5> Цвет: Зеленый</h5>
+            <h5> Размер: M</h5>
+            <h5> Стоимость: 30$</h5>
+        </div>
+        <div id="boots" data-price="50" draggable="true">
+            Кроссовки
+            <h5> Цвет: Белый</h5>
+            <h5> Размер: 42-43</h5>
+            <h5> Стоимость: 50$</h5>
+        </div>
+    </div>
+    <div id="cart">
+        <div id="target">Перенести в эту область </div>
+        <div id="summ">Сумма заказа:<span></span>$</div>
+    </div>
+</body>
+</html>
